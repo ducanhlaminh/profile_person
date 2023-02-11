@@ -1,5 +1,8 @@
 import avatar from "../asset/avatar.png";
-
+import icon1 from "../asset/Strategy&Direction.png";
+import icon2 from "../asset/Branding&Logo.png";
+import icon3 from "../asset/UI&UX Design.png";
+import icon4 from "../asset/UI&UX Design.png";
 function Header() {
   return (
     <>
@@ -31,7 +34,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex bg-slate-100">
         <div className="w-1/3">
           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0" mask-type="alpha">
@@ -51,9 +54,69 @@ function Header() {
             </g>
           </svg>
         </div>
-        <div className="w-2/3">
-          <p>About</p>
-          <p>Gioi thieu</p>
+        <div className="w-2/3 p-5 flex items-center">
+          <div className="w-3/4 m-auto p-4">
+            <p className="text-[12px]">About</p>
+            <p className="text-[35px] font-medium">Giới Thiệu</p>
+            <div className="flex gap-2 flex-col text-xl ">
+              <div className="flex ml-10">
+                <p className="w-1/3">Họ vè tên : </p>
+                <p className="font-medium">Nguyễn Đức Anh</p>
+              </div>
+              <div className="flex ml-10">
+                <p className="w-1/3">Mã sinh viên : </p>
+                <p className="font-medium w-1/2">B20DCVT024</p>
+              </div>
+              <div className="flex ml-10">
+                <p className="w-1/3">Ngành : </p>
+                <p className="font-medium">Điện tử viễn thông</p>
+              </div>
+              <div className="flex ml-10">
+                <p className="w-1/3">Lớp : </p>
+                <p className="font-medium">D20CQVT08-B</p>
+              </div>
+              <div className="flex ml-10">
+                <p className="w-1/3"> Cố vấn học tập :</p>
+                <p className="font-medium">Nguyễn Trọng Trung Anh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-[500px]">
+        <div className="flex justify-between px-7 py-3">
+          <div className="w-1/5 h-[200px] bg-[#F5FCFF] shadow-lg">
+            <div className="h-[80px]">
+              <img src={icon1} alt="" className="h-full" />
+            </div>
+            <div className="px-4">
+              <b>Tư duy logic</b>
+            </div>
+          </div>
+          <div className="w-1/5 h-[200px] bg-[#F5FCFF] shadow-lg">
+            <div className="h-[80px]">
+              <img src={icon2} alt="" className="h-full" />
+            </div>
+            <div className="px-4">
+              <b>Tư duy logic</b>
+            </div>
+          </div>
+          <div className="w-1/5 h-[200px] bg-[#F5FCFF] shadow-lg">
+            <div className="h-[80px]">
+              <img src={icon3} alt="" className="h-full" />
+            </div>
+            <div className="px-4">
+              <b>Tư duy logic</b>
+            </div>
+          </div>
+          <div className="w-1/5 h-[200px] bg-[#F5FCFF] shadow-lg">
+            <div className="h-[80px]">
+              <img src={icon4} alt="" className="h-full" />
+            </div>
+            <div className="px-4">
+              <b>Tư duy logic</b>
+            </div>
+          </div>
         </div>
       </div>
     </>
