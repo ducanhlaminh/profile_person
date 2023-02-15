@@ -3,8 +3,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="">
-      <Header />
+    <div className="w-screen flex justify-center">
+      <div className="max-w-[1700px]">
+        <Header />
+      </div>
     </div>
   );
 }
